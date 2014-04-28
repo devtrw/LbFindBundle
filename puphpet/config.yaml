@@ -109,7 +109,7 @@ nginx:
             envvars:
                 - 'APP_ENV dev'
 php:
-    install: 0
+    install: '1'
     version: '55'
     composer: '1'
     modules:
